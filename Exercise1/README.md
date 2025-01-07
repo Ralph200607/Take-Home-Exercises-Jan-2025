@@ -1,4 +1,4 @@
-# CPSC1517 Exercise 1: OOP Training
+# OOP Training
 
 > This is the first of a set of exercises that follow the evolution of a program to manage trains. This set is cumulative and will build upon previous exercises.
 
@@ -16,7 +16,7 @@ This exercise will allow you to demonstrate:
 
 Your task is to generate a set of simple data types to represent the primary objects for managing trains. 
 
-For this exercise, place all the required data types in the namespace `TrainSystem` and ensure that the classes are `public`. Create your project as a **Class Library** (.NET Core 8). You have been supplied a Unit Tests project that will inform you if your work will meet specifications. **Ensure you follow the given class diagrams for the Unit Tests to work.**
+For this exercise, place all the required data types in the namespace `TrainSystem` and ensure that the classes are `public`. Create your project as a Class Library (.NET Core 6). Each class will represent an item (Engine, RailCar (**Exercise 2**), or Train (**Exercise 2**)). Certain characteristics of each item are set and cannot be altered. You will need to read the specifications carefully to determine the access levels for item characteristics. You will need to use the supplied unit tests for this exercise to demonstrate your objects can hold appropriate data.
 
 ### General Validation Rules
 
@@ -32,7 +32,7 @@ All validation is to be performed by throwing exceptions. Here are some general 
 
 ### The `Engine`
 
-Engines are the workhorse of the railway system. For our purposes, we need to track the train engine's **Model** (e.g.: "CP 8002"), **Serial Number** (e.g.: "48807"), **InService** (e.g.: True), **Weight** (in pounds, e.g.: 147,700), and **Horse Power** (e.g.: 4400). The Model and Serial Number must be stored with private **set** (it cannot be modified by an outside user or changed once the instance has been created). Weight and Horse Power will change as upgrades are done to the engine throughout its lifetime. Allow direct upgrades to these characteristics (public set). Weight and Horse Power can only be altered if the engine is not in service. You will need a greedy constructor for this data type. The engine is defaulted to inservice when created. Create an overloaded .ToString() method for the class to return the instance values in a comma separated value string.
+Engines are the workhorse of the railway system. For our purposes, we need to track the train engine's **Model** (e.g.: "CP 8002"), **Serial Number** (e.g.: "48807"), **InService** (e.g.: True), **Weight** (in pounds, e.g.: 147,700), and **Horse Power** (e.g.: 4400). The Model and Serial Number must be stored as read-only information (it cannot be modified by an outside user or changed once the instance has been created). Weight and Horse Power will change as upgrades are done to the engine throughout its lifetime. Allow direct upgrades to these characteristics. Weight and Horse Power can only be altered if the engine is not in service. You will need a greedy constructor for this data type. The engine is defaulted to inservice when created. Create an overloaded .ToString() method for the class to return the instance values in a comma separated value string.
 
 ![Engine](./Engine-ClassDiagram.png)
 
@@ -80,12 +80,11 @@ Commit your work in your **exercise** repository and sync to github.com.
 | **0** | Not done; compile errors; large component of requirements are missing; work submitted not of the requested software version; work submitted not using the requests templates (such as but not limited to: .Net Core 6, not a class library, not using supplied unit tests) |  
 | ----   | --------- | 
 | TBA  | Marks Earned |  
+----
+
 
 ----
 
 ## Credits
 
 - [Engine Image](./CP-7002-TStevens.jpg) - [Source](https://www.thedieselshop.us/CP.HTML)
-  
-----
-[Return to exercises](../README.md)
