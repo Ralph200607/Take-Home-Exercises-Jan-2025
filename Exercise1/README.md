@@ -86,3 +86,6 @@ Commit your work in your **exercise** repository and sync to github.com.
 ## Credits
 
 - [Engine Image](./CP-7002-TStevens.jpg) - [Source](https://www.thedieselshop.us/CP.HTML)
+  
+----
+[Return to exercises](../README.md)
