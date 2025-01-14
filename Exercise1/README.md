@@ -16,7 +16,7 @@ This exercise will allow you to demonstrate:
 
 Your task is to generate a set of simple data types to represent the primary objects for managing trains. 
 
-For this exercise, place all the required data types in the namespace `TrainSystem` and ensure that the classes are `public`. Create your project as a Class Library (.NET Core 6). Each class will represent an item (Engine, RailCar (**Exercise 2**), or Train (**Exercise 2**)). Certain characteristics of each item are set and cannot be altered. You will need to read the specifications carefully to determine the access levels for item characteristics. You will need to use the supplied unit tests for this exercise to demonstrate your objects can hold appropriate data.
+For this exercise, place all the required data types in the namespace `TrainSystem` and ensure that the classes are `public`. Create your project as a Class Library (.NET Core 8). Each class will represent an item (Engine, RailCar (**Exercise 2**), or Train (**Exercise 2**)). Certain characteristics of each item are set and cannot be altered. You will need to read the specifications carefully to determine the access levels for item characteristics. You will need to use the supplied unit tests for this exercise to demonstrate your objects can hold appropriate data.
 
 ### General Validation Rules
 
