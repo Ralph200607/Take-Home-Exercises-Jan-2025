@@ -48,7 +48,7 @@ Note the following:
 
 Create a public static class called `Utilities`. This class will have public static methods which can be used to do common testing.
 
-1. Create a method that will validate a numeric value to be a non-zero postive. 
+1. Create a method that will validate a numeric value to be a non-zero positive. 
 1. Create a method that will validate a numeric value is in 100 unit increments.
 
 ### The `Unit Tests`
