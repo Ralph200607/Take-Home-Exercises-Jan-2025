@@ -129,7 +129,7 @@ If the train is asked to detach the railcar serial number "GATX 225963", then th
  | Class item | Success/Fail | Specifications |
 | ---- | --------- | ------------------- |
 | Train  | Success | A train was successfully created with an engine.   |
-| Train  | Success | MaxGrossWeight calculates correctly. **The train must be setup with a minimum of 5 cars.**  |
+| Train  | Success | MaxGrossWeight calculates correctly.  |
 | Train  | Fail | There is no engine instance supplied. Use ArgumentNullExceeption().   |
 | AddCar  | Success | Adds the first rail car to the train.   |
 | AddCar  | Success | Adds another rail car to the train after the first car. **The train must be setup with a minimum of 5 cars.**   |
