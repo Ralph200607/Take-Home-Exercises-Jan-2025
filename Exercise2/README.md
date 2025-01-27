@@ -19,7 +19,7 @@ For this exercise, place all the required data types in the namespace `TrainSyst
 Each class will represent an item (Engine *(Exercise 1)*, RailCar *(Given)*, 
 enum RailCarType *(Given)* and Train). Certain characteristics of each item are set and cannot be altered. 
 You will need to read the specifications carefully to determine the access levels for item characteristics. 
-You will need to use the supplied unit tests for this exercise to demonstrate your objects can hold appropriate data.
+You will need to write unit tests for this exercise to demonstrate your objects can hold appropriate data.
 
 ### General Validation Rules
 
