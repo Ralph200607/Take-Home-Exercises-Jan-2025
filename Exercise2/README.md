@@ -130,15 +130,15 @@ If the train is asked to detach the railcar serial number "GATX 225963", then th
 | ---- | --------- | ------------------- |
 | Train  | Success | A train was successfully created with an engine.   |
 | Train  | Success | MaxGrossWeight calculates correctly.  |
-| Train  | Fail | There is no engine instance supplied. Use ArgumentNullExceeption().   |
+| Train  | Fail | There is no engine instance supplied. Use ArgumentNullException().   |
 | AddCar  | Success | Adds the first rail car to the train.   |
 | AddCar  | Success | Adds another rail car to the train after the first car. **The train must be setup with a minimum of 5 cars.**   |
-| AddCar  | Fail | There is no railcar instance supplied. Use ArgumentNullExceeption(). Message must contain `RailCar required`   |
+| AddCar  | Fail | There is no railcar instance supplied. Use ArgumentNullException(). Message must contain `RailCar required`   |
 | AddCar  | Fail | Adding a rail car where the serial number already exists on the train. **The train must be setup with a minimum of 5 cars.** Use ArgumentExceeption(). Include serial number.|  
-| AddCar  | Fail | Adding a rail car exceeds the MaxGrossWeight limits. **The train must be setup with a minimum of 5 cars.** Use ArgumentExceeption(). Include the maximum gross weight allow and the expected gross weight if the car was added |
+| AddCar  | Fail | Adding a rail car exceeds the MaxGrossWeight limits. **The train must be setup with a minimum of 5 cars.** Use ArgumentException(). Include the maximum gross weight allow and the expected gross weight if the car was added |
 | DetachCar  | Success | Detach a car from the train. **The train must be setup with a minimum of 5 cars.** Remaining cars are in the correct order and returns the detached rail car.  | 
-| DetachCar  | Fail | There is no railcar serial number supplied. **The train must be setup with a minimum of 5 cars.** Use ArgumentNullExceeption(). Message must contain `SerialNumber required`| 
-| DetachCar  | Fail | Serial Number of car not found on train. **The train must be setup with a minimum of 5 cars.** Use ArgumentExceeption(). Message must contain serial number. | 
+| DetachCar  | Fail | There is no railcar serial number supplied. **The train must be setup with a minimum of 5 cars.** Use ArgumentNullException(). Message must contain `SerialNumber required`| 
+| DetachCar  | Fail | Serial Number of car not found on train. **The train must be setup with a minimum of 5 cars.** Use ArgumentException(). Message must contain serial number. | 
 
 ## Submission
 
