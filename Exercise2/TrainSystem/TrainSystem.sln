@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainSystem", "TrainSystem\TrainSystem.csproj", "{0997CC04-0EC7-4179-B033-8324D71A6637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UintTestingEx1", "UintTestingEx1\UintTestingEx1.csproj", "{649CABB7-0B6B-4717-B57B-4167395626CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0997CC04-0EC7-4179-B033-8324D71A6637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0997CC04-0EC7-4179-B033-8324D71A6637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0997CC04-0EC7-4179-B033-8324D71A6637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0997CC04-0EC7-4179-B033-8324D71A6637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{649CABB7-0B6B-4717-B57B-4167395626CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{649CABB7-0B6B-4717-B57B-4167395626CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{649CABB7-0B6B-4717-B57B-4167395626CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{649CABB7-0B6B-4717-B57B-4167395626CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

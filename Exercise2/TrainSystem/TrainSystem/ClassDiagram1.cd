@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TrainSystem.RailCar">
+    <Position X="9.25" Y="2" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>IACAAEAAAAAAAAAEAACAQAQCAAEAAAAYAQAgAAAAAAI=</HashCode>
+      <FileName>RailCar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrainSystem.Engine">
+    <Position X="7.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAEIAAAQAAAACEAAAAAABgAAAAAAAA=</HashCode>
+      <FileName>Engine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="TrainSystem.RailCarType">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAABAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>RailCarType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
