@@ -5,7 +5,7 @@ VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainSystem", "TrainSystem\TrainSystem.csproj", "{0997CC04-0EC7-4179-B033-8324D71A6637}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UintTestingEx1", "UintTestingEx1\UintTestingEx1.csproj", "{649CABB7-0B6B-4717-B57B-4167395626CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UintTestingEx2", "UintTestingEx1\UintTestingEx2.csproj", "{649CABB7-0B6B-4717-B57B-4167395626CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
